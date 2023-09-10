@@ -8,7 +8,7 @@ else
     echo "Your in root...........Mysql start downloading"
 fi
 yum install mysql -y
-fi [ $? -ne 0 ]
+if [ $? -ne 0 ]
 then
     echo "Mysql was not downloaded there is some error kincldy check error and again start downloading"
     exit 1
