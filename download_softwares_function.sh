@@ -15,6 +15,7 @@ vaildate (){
     echo -e "$R $2 FAILURE $N"
     else
     echo -e "$G $2 SUCCESSFULL $N"
+    fi
 }
 yum install $i -y
 vaildate $? "$i  ........Installing"
