@@ -7,7 +7,7 @@ echo "ERROR:: Your not in root, Kindly get root access"
 else
     echo "Your in root...........Mysql start downloading"
 fi
-yum install mysql -y
+yum install mysqlll -y
 if [ $? -ne 0 ]
 then
     echo "Mysql was not downloaded there is some error kincldy check error and again start downloading"
