@@ -1,9 +1,10 @@
 #!/bin/bash
 USER=$(id -u)
-if [ $USER -ne 0 ]
+
 R="\e[31m"
 G="\e[32m"
 N="\e[0m"
+if [ $USER -ne 0 ]
 then 
 echo -e "ERROR:: $R Your not in root, Kindly get root access $N"
     exit 1
