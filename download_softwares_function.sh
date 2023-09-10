@@ -17,5 +17,9 @@ vaildate (){
     echo -e "$G $2 SUCCESSFULL $N"
     fi
 }
-yum install $i -y
-vaildate $? "$i  ........Installing"
+yum install git -y
+vaildate $? "git  ........Installing"
+yum install mysql -y
+vaildate $? "mysql  ........Installing"
+yum install postfix -y
+vaildate $? "postfix  ........Installing"
