@@ -6,7 +6,7 @@ n="e[0"
 
 if [ $1 -ne 25 ]
 then
-echo " $R KINDLY CHECK YOUR TEXTE NUMBER ONCE $N"
+echo -e" $R KINDLY CHECK YOUR TEXTE NUMBER ONCE $N"
 else
-echo " $G ENTER NUBMER IS RIGHT $N "
+echo -e" $G ENTER NUBMER IS RIGHT $N "
 fi
